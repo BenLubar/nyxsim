@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NyxNyx NyxNyxNyxNyxNyx Nyx Nyx NyxNyx</title>
+</head>
+<body>
+<audio src="0.ogg" autobuffer></audio>
+<audio src="1.ogg" autobuffer></audio>
+<audio src="2.ogg" autobuffer></audio>
+<audio src="3.ogg" autobuffer></audio>
+<audio src="4.ogg" autobuffer></audio>
+<audio src="5.ogg" autobuffer></audio>
+<audio src="6.ogg" autobuffer></audio>
+<audio src="7.ogg" autobuffer></audio>
+<audio src="8.ogg" autobuffer></audio>
+<audio src="9.ogg" autobuffer></audio>
+<audio src="10.ogg" autobuffer></audio>
+<audio src="11.ogg" autobuffer></audio>
+<audio src="12.ogg" autobuffer></audio>
+<audio src="13.ogg" autobuffer></audio>
+<audio src="14.ogg" autobuffer></audio>
+<audio src="15.ogg" autobuffer></audio>
+<audio src="16.ogg" autobuffer></audio>
+<audio src="17.ogg" autobuffer></audio>
+<audio src="18.ogg" autobuffer></audio>
+<audio src="19.ogg" autobuffer></audio>
+<audio src="20.ogg" autobuffer></audio>
+<audio src="21.ogg" autobuffer></audio>
+<audio src="22.ogg" autobuffer></audio>
+<audio src="23.ogg" autobuffer></audio>
+<audio src="24.ogg" autobuffer></audio>
+<audio src="25.ogg" autobuffer></audio>
+<audio src="26.ogg" autobuffer></audio>
+<audio src="27.ogg" autobuffer></audio>
+<audio src="28.ogg" autobuffer></audio>
+<audio src="29.ogg" autobuffer></audio>
+<script>
+// <![CDATA[
+var audio = [], audio_ = document.querySelectorAll('audio');
+for (var i = 0; i < audio_.length; i++) audio.push(audio_[i]);
+function next() {
+	audio[Math.floor(Math.random() * audio.length)].play();
+}
+audio.forEach(function(a) {
+	a.addEventListener('ended', next, false);
+});
+next();
+// ]]>
+</script>
+<h1 style="font: 72pt 'Comic Sans MS', cursive">NYX SIMULATOR 2015</h1>
+</body>
+</html>
